@@ -1,10 +1,10 @@
 <template>
 	 <div id="header">
             <div class="logo">
-                <a href="index.html">
+                <router-link to="/">
                     <span class="fa fa-home marker"></span>
                     <span class="logoText">reales</span>
-                </a>
+                </router-link>
             </div>
             <a href="#" class="navHandler"><span class="fa fa-bars"></span></a>
             <div class="search">
