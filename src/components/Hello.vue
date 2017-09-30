@@ -133,12 +133,12 @@
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 s-menu-item">
-                        <a href="#">
+                        <router-link to="/Analytics">
                             <span class="icon-users s-icon"></span>
                             <div class="s-content">
                                 <h2 class="s-main osLight">Tools, analytics, and<br>on-the-ground knowledge</h2>
                             </div>
-                        </a>
+                        </router-link>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 s-menu-item">
                         <a href="#">
@@ -159,8 +159,8 @@
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,750,000</span></div>
                                 <div class="figType">FOR SALE</div>
-                                <h3 class="osLight">Modern Residence in New York</h3>
-                                <div class="address">39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <h3 class="osLight">Office Space in Buffalo New York</h3>
+                                <div class="address">39 Ellicott St, Buffalo, NY 14223, USA</div>
                                 <ul class="rating">
                                     <li><span class="fa fa-star star-1"></span></li>
                                     <li><span class="fa fa-star star-2"></span></li>
@@ -180,7 +180,7 @@
                                 <div class="priceCap osLight"><span>$1,550,000</span></div>
                                 <div class="figType">FOR RENT</div>
                                 <h3 class="osLight">Hauntingly Beautiful Estate</h3>
-                                <div class="address">39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <div class="address">361 Delaware Ave, Buffalo, NY 14213, USA</div>
                                 <ul class="rating">
                                     <li><span class="fa fa-star star-1"></span></li>
                                     <li><span class="fa fa-star star-2"></span></li>
@@ -200,7 +200,7 @@
                                 <div class="priceCap osLight"><span>$2,350,000</span></div>
                                 <div class="figType">FOR SALE</div>
                                 <h3 class="osLight">Luxury Mansion</h3>
-                                <div class="address">39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <div class="address">270 Micigan Ave, Buffalo, NY 14223, USA</div>
                                 <ul class="rating">
                                     <li><span class="fa fa-star star-1"></span></li>
                                     <li><span class="fa fa-star star-2"></span></li>
@@ -219,8 +219,8 @@
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,340,000</span></div>
                                 <div class="figType">FOR RENT</div>
-                                <h3 class="osLight">Sophisticated Residence</h3>
-                                <div class="address">39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <h3 class="osLight">Sophisticated Office</h3>
+                                <div class="address">176 Franklin St, Buffalo, NY 14234, USA</div>
                                 <ul class="rating">
                                     <li><span class="fa fa-star star-1"></span></li>
                                     <li><span class="fa fa-star star-2"></span></li>
@@ -240,7 +240,7 @@
                                 <div class="priceCap osLight"><span>$1,930,000</span></div>
                                 <div class="figType">FOR SALE</div>
                                 <h3 class="osLight">House With a Lovely Glass</h3>
-                                <div class="address">39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <div class="address">170 Franklin St, Buffalo, NY 14233, USA</div>
                                 <ul class="rating">
                                     <li><span class="fa fa-star star-1"></span></li>
                                     <li><span class="fa fa-star star-2"></span></li>
@@ -260,7 +260,7 @@
                                 <div class="priceCap osLight"><span>$1,750,000</span></div>
                                 <div class="figType">FOR SALE</div>
                                 <h3 class="osLight">Modern Residence in New York</h3>
-                                <div class="address">39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <div class="address">290 Main St, Buffalo, NY 14233, USA</div>
                                 <ul class="rating">
                                     <li><span class="fa fa-star star-1"></span></li>
                                     <li><span class="fa fa-star star-2"></span></li>
@@ -306,10 +306,10 @@
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                         <div class="osLight footer-header">Get in Touch</div>
                         <ul class="footer-nav pb20">
-                            <li class="footer-phone"><span class="fa fa-phone"></span> 800 234 67 89</li>
+                            <li class="footer-phone"><span class="fa fa-phone"></span> 716 479 6789</li>
                             <li class="footer-address osLight">
-                                <p>516 Green St</p>
-                                <p>San Francisco, CA 94133</p>
+                                <p>605 Richmond Ave</p>
+                                <p>Buffalo, NY 14222</p>
                                 <p>United States</p>
                             </li>
                             <li><a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-google-plus"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> </li>
@@ -327,7 +327,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="copyright">Real estate web application<br> &copy; 2014</div>
+                <div class="copyright">Thirdstor3y<br> &copy; 2017</div>
             </div>
         </div>
 
@@ -493,7 +493,7 @@ export default {
     }, {
         title : 'Hauntingly Beautiful Estate',
         image : '2-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Sale',
         price : '$1,750,000',
         address : '169 Warren St, Brooklyn, NY 11201, USA',
         bedrooms : '2',
@@ -505,7 +505,7 @@ export default {
         },
         markerIcon : "marker-green.png"
     }, {
-        title : 'Sophisticated Residence',
+        title : 'Sophisticated Office',
         image : '3-1-thmb.png',
         type : 'For Sale',
         price : '$1,340,000',
@@ -535,7 +535,7 @@ export default {
     }, {
         title : 'Luxury Mansion',
         image : '5-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Sale',
         price : '$2,350,000',
         address : '95 Butler St, Brooklyn, NY 11231, USA',
         bedrooms : '2',
@@ -563,7 +563,7 @@ export default {
     }, {
         title : 'Hauntingly Beautiful Estate',
         image : '2-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Sale',
         price : '$1,750,000',
         address : '169 Warren St, Brooklyn, NY 11201, USA',
         bedrooms : '2',
@@ -605,7 +605,7 @@ export default {
     }, {
         title : 'Luxury Mansion',
         image : '5-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Sale',
         price : '$2,350,000',
         address : '95 Butler St, Brooklyn, NY 11231, USA',
         bedrooms : '2',
