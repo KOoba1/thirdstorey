@@ -210,7 +210,7 @@
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                        <a href="single.html" class="propWidget-2">
+                        <router-link to="/Single" class="propWidget-2">
                             <div class="fig">
                                 <img src="/static/images/prop/5-1.png" alt="House With a Lovely Glass">
                                 <img class="blur" src="/static/images/prop/5-1.png" alt="House With a Lovely Glass">
@@ -227,7 +227,7 @@
                                     <li><span class="fa fa-star star-5"></span></li>
                                 </ul>
                             </div>
-                        </a>
+                        </router-link>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <a href="single.html" class="propWidget-2">
