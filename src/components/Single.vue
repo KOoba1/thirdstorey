@@ -19,7 +19,7 @@
                                 <img src="/static/images/prop/4-1.png" alt="First slide">
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -27,7 +27,7 @@
                                 <img src="/static/images/prop/4-2.png" alt="Second slide">
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                                 <img src="/static/images/prop/4-3.png" alt="Third slide">
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                                 <img src="/static/images/prop/4-4.png" alt="Fourth slide">
                                 <div class="container">
                                     <div class="carousel-caption">
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@
                             <li data-target="#carouselSimilar-1" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselSimilar-1" data-slide-to="1"></li>
                         </ol>
-                        <div class="carousel-inner"> 
+                        <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-xs-4">
@@ -289,13 +289,13 @@
                     </div>
 
                     <!-- carousel for small devices -->
-                    <div id="carouselSimilar-2" class="carousel slide visible-md carousel-col"> 
+                    <div id="carouselSimilar-2" class="carousel slide visible-md carousel-col">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselSimilar-2" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselSimilar-2" data-slide-to="1"></li>
                             <li data-target="#carouselSimilar-2" data-slide-to="2"></li>
                         </ol>
-                        <div class="carousel-inner"> 
+                        <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-xs-6">
@@ -461,7 +461,7 @@
                             <li data-target="#carouselSimilar-3" data-slide-to="4"></li>
                             <li data-target="#carouselSimilar-3" data-slide-to="5"></li>
                         </ol>
-                        <div class="carousel-inner"> 
+                        <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-xs-12">
@@ -770,7 +770,7 @@
 <script>
 
 import TopNav from '@/components/TopNav';
-import LeftNav from '@/components/LeftNav'; 
+import LeftNav from '@/components/LeftNav';
     export default {
 
         components : { TopNav, LeftNav },
@@ -987,7 +987,7 @@ import LeftNav from '@/components/LeftNav';
             var marker = new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: new google.maps.MarkerImage( 
+                icon: new google.maps.MarkerImage(
                     '/static/images/' + prop.markerIcon,
                     null,
                     null,
@@ -1107,7 +1107,7 @@ import LeftNav from '@/components/LeftNav';
 
     var repositionTooltip = function( e, ui ){
         var div = $(ui.handle).data("bs.tooltip").$tip[0];
-        var pos = $.extend({}, $(ui.handle).offset(), { 
+        var pos = $.extend({}, $(ui.handle).offset(), {
                         width: $(ui.handle).get(0).offsetWidth,
                         height: $(ui.handle).get(0).offsetHeight
                     });
@@ -1140,7 +1140,7 @@ import LeftNav from '@/components/LeftNav';
             newMarker = new google.maps.Marker({
                 position: new google.maps.LatLng(40.6984237,-73.9890044),
                 map: map,
-                icon: new google.maps.MarkerImage( 
+                icon: new google.maps.MarkerImage(
                     '/static/images/marker-new.png',
                     null,
                     null,
@@ -1217,9 +1217,9 @@ import LeftNav from '@/components/LeftNav';
 
     // functionality for map manipulation icon on mobile devices
     $('.mapHandler').click(function() {
-        if ($('#mapView').hasClass('mob-min') || 
-            $('#mapView').hasClass('mob-max') || 
-            $('#content').hasClass('mob-min') || 
+        if ($('#mapView').hasClass('mob-min') ||
+            $('#mapView').hasClass('mob-max') ||
+            $('#content').hasClass('mob-min') ||
             $('#content').hasClass('mob-max')) {
                 $('#mapView').toggleClass('mob-max');
                 $('#content').toggleClass('mob-min');
@@ -1280,7 +1280,7 @@ import LeftNav from '@/components/LeftNav';
         step: 10000,
         slide: function(event, ui) {
             $('.priceSlider .sliderTooltip .stLabel').html(
-                '$' + ui.values[0].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + 
+                '$' + ui.values[0].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") +
                 ' <span class="fa fa-arrows-h"></span> ' +
                 '$' + ui.values[1].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
             );
@@ -1291,7 +1291,7 @@ import LeftNav from '@/components/LeftNav';
         }
     });
     $('.priceSlider .sliderTooltip .stLabel').html(
-        '$' + $('.priceSlider').slider('values', 0).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + 
+        '$' + $('.priceSlider').slider('values', 0).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") +
         ' <span class="fa fa-arrows-h"></span> ' +
         '$' + $('.priceSlider').slider('values', 1).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,")
     );
@@ -1348,7 +1348,7 @@ import LeftNav from '@/components/LeftNav';
     //Enable swiping
     $(".carousel-inner").swipe( {
         swipeLeft:function(event, direction, distance, duration, fingerCount) {
-            $(this).parent().carousel('next'); 
+            $(this).parent().carousel('next');
         },
         swipeRight: function() {
             $(this).parent().carousel('prev');

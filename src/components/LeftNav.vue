@@ -1,7 +1,7 @@
 <template>
 <div>
  <div id="leftSide">
-            <nav class="leftNav scrollable">
+            <nav class="leftNav scrollable" style="height: 100vh">
                 <div class="search">
                     <span class="searchIcon icon-magnifier"></span>
                     <input type="text" placeholder="Search for houses, apartments...">
@@ -68,3 +68,8 @@
         <div class="closeLeftSide"></div>
     </div>
 </template>
+<style>
+#leftSide {
+    height: ;
+}
+</style>

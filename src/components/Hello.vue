@@ -22,7 +22,7 @@
             </div>
             <div class="home-caption">
                 <div class="home-title">Now it's easy to find your future home</div>
-                <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                <div class="home-subtitle">With thirdstor3y - Real Estate HTML Template</div>
                 <a href="#" class="btn btn-lg btn-black">Learn More</a>
             </div>
             <div class="search-panel">
@@ -80,7 +80,7 @@
             </div>
         </div>
         <div class="highlight">
-            <div class="h-title osLight">Find your new place with Reales</div>
+            <div class="h-title osLight">Find your new place with thirdstor3y</div>
             <div class="h-text osLight">Fusce risus metus, placerat in consectetur eu, porttitor a est sed sed dolor lorem cras adipiscing</div>
         </div>
 
@@ -90,39 +90,27 @@
             <div class="home-content">
                 <h2 class="osLight">Our Services</h2>
                 <div class="row pb40">
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">
+                    <div class="col-xs-12 col-sm-6 col-md-4 s-menu-item">
                         <a href="#">
                             <span class="icon-pointer s-icon"></span>
                             <div class="s-content">
-                                <h2 class="s-main osLight">Find places anywhere in the world</h2>
-                                <h3 class="s-sub osLight">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                                <h2 class="s-main osLight">Find the perfect place for your business to thrive</h2>
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">
+                    <div class="col-xs-12 col-sm-6 col-md-4 s-menu-item">
                         <a href="#">
                             <span class="icon-users s-icon"></span>
                             <div class="s-content">
-                                <h2 class="s-main osLight">We have agents with experience</h2>
-                                <h3 class="s-sub osLight">Nulla convallis egestas rhoncus consectetur adipiscing elit</h3>
+                                <h2 class="s-main osLight">Tools, analytics, and<br>on-the-ground knowledge</h2>
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">
+                    <div class="col-xs-12 col-sm-6 col-md-4 s-menu-item">
                         <a href="#">
                             <span class="icon-home s-icon"></span>
                             <div class="s-content">
-                                <h2 class="s-main osLight">Buy or rent beautiful properties</h2>
-                                <h3 class="s-sub osLight">Donec facilisis fermentum sem, ac viverra ante luctus vel</h3>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">
-                        <a href="#">
-                            <span class="icon-cloud-upload s-icon"></span>
-                            <div class="s-content">
-                                <h2 class="s-main osLight">With agent account you can list properties</h2>
-                                <h3 class="s-sub osLight">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                                <h2 class="s-main osLight">Comprehensive listings that showcase your property</h2>
                             </div>
                         </a>
                     </div>
@@ -132,8 +120,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <a href="single.html" class="propWidget-2">
                             <div class="fig">
-                                <img src="/static/images/prop/1-1.png" alt="Modern Residence in New York">
-                                <img class="blur" src="/static/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img src="/static/images/listings/Ellicott-Square-Building-Buffalo.jpg" alt="Modern Residence in New York">
+                                <img class="blur" src="/static/images/listings/Ellicott-Square-Building-Buffalo.jpg" alt="Modern Residence in New York">
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,750,000</span></div>
                                 <div class="figType">FOR SALE</div>
@@ -152,8 +140,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <a href="single.html" class="propWidget-2">
                             <div class="fig">
-                                <img src="/static/images/prop/2-1.png" alt="Hauntingly Beautiful Estate">
-                                <img class="blur" src="/static/images/prop/2-1.png" alt="Hauntingly Beautiful Estate">
+                                <img src="/static/images/listings/Lawley-Building-361-Delaware-Buffalo.jpg" alt="Hauntingly Beautiful Estate">
+                                <img class="blur" src="/static/images/listings/Lawley-Building-361-Delaware-Buffalo.jpg" alt="Hauntingly Beautiful Estate">
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,550,000</span></div>
                                 <div class="figType">FOR RENT</div>
@@ -172,8 +160,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <a href="single.html" class="propWidget-2">
                             <div class="fig">
-                                <img src="/static/images/prop/3-1.png" alt="Luxury Mansion">
-                                <img class="blur" src="/static/images/prop/3-1.png" alt="Luxury Mansion">
+                                <img src="/static/images/listings/270-michigan-ave-1.jpg" alt="Luxury Mansion">
+                                <img class="blur" src="/static/images/listings/270-michigan-ave-1.jpg" alt="Luxury Mansion">
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$2,350,000</span></div>
                                 <div class="figType">FOR SALE</div>
@@ -192,8 +180,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <a href="single.html" class="propWidget-2">
                             <div class="fig">
-                                <img src="/static/images/prop/4-1.png" alt="Sophisticated Residence">
-                                <img class="blur" src="/static/images/prop/4-1.png" alt="Sophisticated Residence">
+                                <img src="/static/images/listings/176-franklin.jpg" alt="Sophisticated Residence">
+                                <img class="blur" src="/static/images/listings/176-franklin.jpg" alt="Sophisticated Residence">
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,340,000</span></div>
                                 <div class="figType">FOR RENT</div>
@@ -212,8 +200,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <router-link to="/Single" class="propWidget-2">
                             <div class="fig">
-                                <img src="/static/images/prop/5-1.png" alt="House With a Lovely Glass">
-                                <img class="blur" src="/static/images/prop/5-1.png" alt="House With a Lovely Glass">
+                                <img src="/static/images/listings/Crosby-170-Franklin-Buffalo.jpg" alt="House With a Lovely Glass">
+                                <img class="blur" src="/static/images/listings/Crosby-170-Franklin-Buffalo.jpg" alt="House With a Lovely Glass">
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,930,000</span></div>
                                 <div class="figType">FOR SALE</div>
@@ -232,8 +220,8 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                         <a href="single.html" class="propWidget-2">
                             <div class="fig">
-                                <img src="/static/images/prop/1-1.png" alt="Modern Residence in New York">
-                                <img class="blur" src="/static/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img src="/static/images/listings/Swa-Tower-290-Main-St-Buffalo.jpg" alt="Modern Residence in New York">
+                                <img class="blur" src="/static/images/listings/Swa-Tower-290-Main-St-Buffalo.jpg" alt="Modern Residence in New York">
                                 <div class="opac"></div>
                                 <div class="priceCap osLight"><span>$1,750,000</span></div>
                                 <div class="figType">FOR SALE</div>
@@ -250,111 +238,8 @@
                         </a>
                     </div>
                 </div>
-                <h2 class="osLight">Our Agents</h2>
-                <div class="row pb40">
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <div class="agent">
-                            <a href="profile.html" class="agent-avatar">
-                                <img src="/static/images/avatar-1.png" alt="John Smith">
-                                <div class="ring"></div>
-                            </a>
-                            <div class="agent-name osLight">John Smith</div>
-                            <div class="agent-rating">
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                            </div>
-                            <div class="agent-contact">
-                                <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-green"><span class="fa fa-envelope-o"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-facebook"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-twitter"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-google"><span class="fa fa-google-plus"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <div class="agent">
-                            <a href="profile.html" class="agent-avatar">
-                                <img src="/static/images/avatar-2.png" alt="Jane Smith">
-                                <div class="ring"></div>
-                            </a>
-                            <div class="agent-name osLight">Jane Smith</div>
-                            <div class="agent-rating">
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                            </div>
-                            <div class="agent-contact">
-                                <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-green"><span class="fa fa-envelope-o"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-facebook"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-twitter"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-google"><span class="fa fa-google-plus"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <div class="agent">
-                            <a href="profile.html" class="agent-avatar">
-                                <img src="/static/images/avatar-3.png" alt="Rust Cohle">
-                                <div class="ring"></div>
-                            </a>
-                            <div class="agent-name osLight">Rust Cohle</div>
-                            <div class="agent-rating">
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                            </div>
-                            <div class="agent-contact">
-                                <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-green"><span class="fa fa-envelope-o"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-facebook"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-twitter"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-google"><span class="fa fa-google-plus"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                        <div class="agent">
-                            <a href="profile.html" class="agent-avatar">
-                                <img src="/static/images/avatar-4.png" alt="Antony Iglesias">
-                                <div class="ring"></div>
-                            </a>
-                            <div class="agent-name osLight">Antony Iglesias</div>
-                            <div class="agent-rating">
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                                <span class="fa fa-star text-yellow"></span>
-                            </div>
-                            <div class="agent-contact">
-                                <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-green"><span class="fa fa-envelope-o"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-facebook"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-twitter"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-google"><span class="fa fa-google-plus"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="osLight">Testimonials</h2>
-                <div id="home-testimonials" class="carousel slide carousel-wb mb20" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#home-testimonials" data-slide-to="0" class="active"></li>
-                        <li data-target="#home-testimonials" data-slide-to="1" class=""></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="/static/images/avatar-2.png" class="home-testim-avatar" alt="Jane Smith">
-                            <div class="home-testim">
-                                <div class="home-testim-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</div>
-                                <div class="home-testim-name">Jane Smith</div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="/static/images/avatar-3.png" class="home-testim-avatar" alt="Rust Cohle">
-                            <div class="home-testim">
-                                <div class="home-testim-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</div>
-                                <div class="home-testim-name">Rust Cohle</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+           </div>
+      </div>
         <!-- Footer -->
 
         <div class="home-footer">
@@ -498,7 +383,7 @@
                                     <a href="explore.html" class="btn btn-lg btn-green">Sign Up</a>
                                 </div>
                             </div>
-                            <p class="help-block">Already a Reales member? <a href="#" class="modal-si text-green">Sign In</a></p>
+                            <p class="help-block">Already a thirdstor3y member? <a href="#" class="modal-si text-green">Sign In</a></p>
                         </form>
                     </div>
                 </div>
@@ -512,9 +397,9 @@ export default {
   name: 'hello',
   data () {
     return {
-     
+
     }
-  } , 
+  } ,
   mounted () {
 
     (function($) {
@@ -723,7 +608,7 @@ export default {
             var marker = new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: new google.maps.MarkerImage( 
+                icon: new google.maps.MarkerImage(
                     'images/' + prop.markerIcon,
                     null,
                     null,
@@ -830,7 +715,7 @@ export default {
     //Enable swiping
     $(".carousel-inner").swipe( {
         swipeLeft:function(event, direction, distance, duration, fingerCount) {
-            $(this).parent().carousel('next'); 
+            $(this).parent().carousel('next');
         },
         swipeRight: function() {
             $(this).parent().carousel('prev');
