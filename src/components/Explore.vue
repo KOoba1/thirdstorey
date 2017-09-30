@@ -578,7 +578,12 @@
 </template>
 <script>
 
-export default {
+
+import TopNav from '@/components/TopNav';
+import LeftNav from '@/components/LeftNav';
+    export default {
+
+        components : { TopNav, LeftNav },
 
 	mounted () {
 

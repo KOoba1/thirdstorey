@@ -1,14 +1,48 @@
 <template>
 <div>
      <div id="hero-container">
-            <ul class="cb-slideshow">
+            <!-- ul class="cb-slideshow">
                 <li><span></span></li>
                 <li><span></span></li>
                 <li><span></span></li>
                 <li><span></span></li>
                 <li><span></span></li>
                 <li><span></span></li>
-            </ul>
+            </ul-->
+            <div id="carouselFull" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselFull" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselFull" data-slide-to="1"></li>
+                            <li data-target="#carouselFull" data-slide-to="2"></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active" style="height:600px;color:transparent;">
+                                <img class="cb-slideshow" src="/static/images/buffalo1.jpg" alt="First slide">
+                                <div class="home-caption">
+                                  <div class="home-title">Now it's easy to find your future home</div>
+                                   <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                            </div>
+                            </div>
+                            <div class="item" style="height:600px">
+                                <img class="cb-slideshow" src="/static/images/buffalo2.jpg" alt="Second slide">
+                                <div class="home-caption">
+                                  <div class="home-title">Now it's easy to find your future home</div>
+                                   <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                            </div>
+                            </div>
+                            <div class="item" style="height:600px">
+                                <img class="cb-slideshow" src="/static/images/texas.jpg" alt="Third slide">
+                                <div class="home-caption">
+                                  <div class="home-title">Now it's easy to find your future home</div>
+                                   <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                            </div>
+                            </div>
+                        
+                        </div>
+                        <a class="left carousel-control" href="#carouselFull" role="button" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
+                        <a class="right carousel-control" href="#carouselFull" role="button" data-slide="next"><span class="fa fa-chevron-right"></span></a>
+                    </div>
             <div class="home-header">
                 <div class="home-logo osLight"><img src="/static/images/logo-text.png" style="max-height: 60px;"></img></div>
                 <a href="#" class="home-navHandler visible-xs"><span class="fa fa-bars"></span></a>
@@ -20,11 +54,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="home-caption">
+            <!-- div class="home-caption">
                 <div class="home-title">Now it's easy to find your future home</div>
                 <div class="home-subtitle">With thirdstor3y - Real Estate HTML Template</div>
                 <a href="#" class="btn btn-lg btn-black">Learn More</a>
-            </div>
+            </di -->
             <div class="search-panel">
                 <form class="form-inline" role="form">
                     <div class="form-group">
