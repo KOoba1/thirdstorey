@@ -72,8 +72,8 @@
                                     </ul>
                                     <div class="clearfix"></div>
                                     <ul class="features">
-                                        <li><span class="fa fa-moon-o"></span><div>2 Bedrooms</div></li>
-                                        <li><span class="icon-drop"></span><div>2 Bathrooms</div></li>
+                                        <li><span class="fa fa-building-o"></span><div>3 Floors</div></li>
+                                        <li><span class="fa fa-briefcase"></span><div>11 Offices</div></li>
                                         <li><span class="icon-frame"></span><div>2750 Sq Ft</div></li>
                                     </ul>
                                     <div class="clearfix"></div>
