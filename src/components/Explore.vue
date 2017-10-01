@@ -252,9 +252,9 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <a href="#/Single" class="card">
                                 <div class="figure">
-                                    <img src="/static/images/prop/1-1.png" alt="image">
+                                    <img src="/static/images/listings/176-franklin.jpg" alt="image">
                                     <div class="figCaption">
-                                        <div>$1,550,000</div>
+                                        <div>$1,300,000</div>
                                         <span class="icon-eye"> 200</span>
                                         <span class="icon-heart"> 54</span>
                                         <span class="icon-bubble"> 13</span>
@@ -262,8 +262,8 @@
                                     <div class="figView"><span class="icon-eye"></span></div>
                                     <div class="figType">FOR SALE</div>
                                 </div>
-                                <h2>Modern Residence in New York</h2>
-                                <div class="cardAddress"><span class="icon-pointer"></span> 39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                <h2>Modern Office Space Downtown Buffallo</h2>
+                                <div class="cardAddress"><span class="icon-pointer"></span> 176 Franklin St, Buffalo NY 14202 </div>
                                 <div class="cardRating">
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
@@ -283,18 +283,18 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <a href="#/Single" class="card">
                                 <div class="figure">
-                                    <img src="/static/images/prop/2-1.png" alt="image">
+                                    <img class="image-responsive"  src="/static/images/listings/Ellicott-Square-Building-Buffalo.jpg" alt="image">
                                     <div class="figCaption">
-                                        <div>$1,750,000</div>
+                                        <div>$1,350,000</div>
                                         <span class="icon-eye"> 175</span>
                                         <span class="icon-heart"> 67</span>
                                         <span class="icon-bubble"> 9</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Lease</div>
+                                    <div class="figType">For Sale</div>
                                 </div>
-                                <h2>Hauntingly Beautiful Estate</h2>
-                                <div class="cardAddress"><span class="icon-pointer"></span> 169 Warren St, Brooklyn, NY 11201, USA</div>
+                                <h2>Ellicot St Building</h2>
+                                <div class="cardAddress"><span class="icon-pointer"></span> Ellicott Square, Buffalo, NY 14232, USA</div>
                                 <div class="cardRating">
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
@@ -311,10 +311,12 @@
                                 <div class="clearfix"></div>
                             </a>
                         </div>
+                        </div>
+                        <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <a href="#/Single" class="card">
                                 <div class="figure">
-                                    <img src="/static/images/prop/3-1.png" alt="image">
+                                    <img class="image-responsive" src="/static/images/listings/Swa-Tower-290-Main-St-Buffalo.jpg" alt="image">
                                     <div class="figCaption">
                                         <div>$1,340,000</div>
                                         <span class="icon-eye"> 180</span>
@@ -324,8 +326,8 @@
                                     <div class="figView"><span class="icon-eye"></span></div>
                                     <div class="figType">For Lease</div>
                                 </div>
-                                <h2>Sophisticated Residence</h2>
-                                <div class="cardAddress"><span class="icon-pointer"></span> 38-62 Water St, Brooklyn, NY 11201, USA</div>
+                                <h2>Sophisticated Office Space</h2>
+                                <div class="cardAddress"><span class="icon-pointer"></span> 290 Main St, Buffalo, NY 14201, USA</div>
                                 <div class="cardRating">
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
@@ -345,7 +347,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <a href="#/Single" class="card">
                                 <div class="figure">
-                                    <img src="/static/images/prop/4-1.png" alt="image">
+                                    <img class="image-responsive" src="/static/images/listings/Lawley-Building-361-Delaware-Buffalo.jpg" alt="image">
                                     <div class="figCaption">
                                         <div>$1,930,000</div>
                                         <span class="icon-eye"> 145</span>
@@ -355,8 +357,8 @@
                                     <div class="figView"><span class="icon-eye"></span></div>
                                     <div class="figType">For Sale</div>
                                 </div>
-                                <h2>House With a Lovely Glass-Roofed Pergola</h2>
-                                <div class="cardAddress"><span class="icon-pointer"></span> Wunsch Bldg, Brooklyn, NY 11201, USA</div>
+                                <h2>Office Space </h2>
+                                <div class="cardAddress"><span class="icon-pointer"></span> 361 Delaware Ave, Buffalo , NY 14203</div>
                                 <div class="cardRating">
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
