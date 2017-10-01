@@ -16,7 +16,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="/static/images/prop/Entrance.jpg" height="42" width="42" alt="First slide">
+                                <img src="/static/images/prop/Entrance.jpg" height="800" width="600" alt="First slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -24,7 +24,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/Atrium.jpg" alt="Second slide">
+                                <img src="/static/images/prop/Atrium.jpg" height="800" width="480" alt="Second slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/Outside.jpg" alt="Third slide">
+                                <img src="/static/images/prop/Outside.jpg" height="800" width="480" alt="Third slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/Inside.jpg" alt="Fourth slide">
+                                <img src="/static/images/prop/Inside.jpg"  height="800" width="480" alt="Fourth slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
