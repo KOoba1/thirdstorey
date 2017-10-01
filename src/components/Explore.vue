@@ -632,6 +632,16 @@ import LeftNav from '@/components/LeftNav';
     var markers = [];
 
     // json for properties markers on map
+    var propImageArray = [ 
+    "176-franklin.jpg",
+    "270-michigan-ave-1.jpg",
+    "Crosby-170-Franklin-Buffalo.jpg",
+    "Ellicott-Square-Building-Buffalo.jpg",
+    "Lawley-Building-361-Delaware-Buffalo.jpg",
+    "Swa-Tower-290-Main-St-Buffalo.jpg"
+    ];
+
+    //Math.round(Math.random() * 6)  + 1 
 
     var props = [
 
@@ -650,7 +660,7 @@ import LeftNav from '@/components/LeftNav';
 
 	   {
 	"title": "227 Niagara St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$900/mo",
 	"address": "227 Niagara St, Buffalo, NY, 14201",
@@ -664,7 +674,7 @@ import LeftNav from '@/components/LeftNav';
 
     {
 	"title": "463 Electric Avenue",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,729,200",
 	"address": "463 Electric Avenue, Rochester, NY 14613",
@@ -682,7 +692,7 @@ import LeftNav from '@/components/LeftNav';
 
  {
 	"title": "3255 Dolphsburg Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$349,000",
 	"address": "3255 Dolphsburg Road, Montour Falls, NY 14865",
@@ -696,7 +706,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "36 Railroad Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$499,000",
 	"address": "36 Railroad Ave, Frewsburg, NY 14738",
@@ -710,7 +720,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3662 South Park Avenue",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "3662 South Park Avenue, Buffalo, NY 14219",
@@ -724,7 +734,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3261 McKinley Parkway",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "3261 McKinley Parkway, Hamburg, NY 14219",
@@ -738,7 +748,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "76 Industrial Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "76 Industrial Dr, North Tonawanda, NY 14120",
@@ -752,7 +762,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7892 Oak Orchard Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "7892 Oak Orchard Rd, Batavia, NY 14020",
@@ -766,7 +776,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "210 Ellicott St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$975,000",
 	"address": "210 Ellicott St, Buffalo, NY 14203",
@@ -780,7 +790,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8800 South Main Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "8800 South Main Street, Eden, NY 14057",
@@ -794,7 +804,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "138 Canal St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$130,000",
 	"address": "138 Canal St, Rochester, NY 14608",
@@ -808,7 +818,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "26 Allen St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,300,000",
 	"address": "26 Allen St, Buffalo, NY 14202",
@@ -822,7 +832,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "9 Union St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,195,000",
 	"address": "9 Union St, Geneva, NY 14456",
@@ -836,7 +846,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2792 Eggert Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$150,000",
 	"address": "2792 Eggert Rd, Tonawanda, NY 14150",
@@ -850,7 +860,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "220 Allen St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$399,000",
 	"address": "220 Allen St, Buffalo, NY 14201",
@@ -864,7 +874,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1155 Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$750,000",
 	"address": "1155 Ridge Rd, Webster, NY 14580",
@@ -878,7 +888,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "250 Lucius Gordon Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$990,000",
 	"address": "250 Lucius Gordon Dr, West Henrietta, NY 14586",
@@ -892,7 +902,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "846 Main Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$225,000",
 	"address": "846 Main Road, Corfu, NY 14036",
@@ -906,7 +916,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "579-585 North St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$429,000",
 	"address": "579-585 North St, Rochester, NY 14605",
@@ -920,7 +930,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4756 Lake Rd S",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,499,500",
 	"address": "4756 Lake Rd S, Brockport, NY 14420",
@@ -934,7 +944,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "105 Franklin St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$99,000",
 	"address": "105 Franklin St, Dansville, NY 14437",
@@ -948,7 +958,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "276-278 W Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$349,900",
 	"address": "276-278 W Main St, Victor, NY 14564",
@@ -962,7 +972,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "20 Amherst St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$275,000",
 	"address": "20 Amherst St, Rochester, NY 14607",
@@ -976,7 +986,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5158 Rt-5",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$399,000",
 	"address": "5158 Rt-5, Batavia, NY 14020",
@@ -990,7 +1000,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4565 Culver Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$650,000",
 	"address": "4565 Culver Rd, Rochester, NY 14622",
@@ -1004,7 +1014,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "517 Pine Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,199,346",
 	"address": "517 Pine Street, South Dayton, NY 14138",
@@ -1018,7 +1028,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1519 N Clinton Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$150,000",
 	"address": "1519 N Clinton Ave, Rochester, NY 14621",
@@ -1032,7 +1042,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "18 Kenilworth Terrace",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$119,900",
 	"address": "18 Kenilworth Terrace, Rochester, NY 14605",
@@ -1046,7 +1056,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "195 W Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$395,000",
 	"address": "195 W Main St, Springville, NY 14141",
@@ -1060,7 +1070,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "45 High Tech Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$580,000",
 	"address": "45 High Tech Dr, Rush, NY 14543",
@@ -1074,7 +1084,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1675 Lake Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$274,900",
 	"address": "1675 Lake Rd, Hamlin, NY 14464",
@@ -1088,7 +1098,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "401 Northland Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$359,000",
 	"address": "401 Northland Ave, Buffalo, NY 14208",
@@ -1102,7 +1112,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6943 Erie Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$475,000",
 	"address": "6943 Erie Road, Derby, NY 14047",
@@ -1116,7 +1126,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1330 Niagara Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$395,000",
 	"address": "1330 Niagara Street, Buffalo, NY 14213",
@@ -1130,7 +1140,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "340 Jefferson Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$790,000",
 	"address": "340 Jefferson Rd, Rochester, NY 14623",
@@ -1144,7 +1154,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3878 Delaware Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$299,999",
 	"address": "3878 Delaware Ave, Kenmore, NY 14217",
@@ -1158,7 +1168,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6109 W Lake Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$299,900",
 	"address": "6109 W Lake Rd, Conesus, NY 14435",
@@ -1172,7 +1182,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5842 - 5860 Snyder Drive",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,625,488",
 	"address": "5842 - 5860 Snyder Drive, Lockport, NY 14094",
@@ -1186,7 +1196,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "15 Pleasant St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$224,900",
 	"address": "15 Pleasant St, Hornell, NY 14843",
@@ -1200,7 +1210,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1189 Ogden Parma Town Line Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$659,000",
 	"address": "1189 Ogden Parma Town Line Rd, Spencerport, NY 14559",
@@ -1214,7 +1224,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5364 Route 242 Hwy",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$224,000",
 	"address": "5364 Route 242 Hwy, Ellicottville, NY 14731",
@@ -1228,7 +1238,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1025 High Tech Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$279,000",
 	"address": "1025 High Tech Dr, Rush, NY 14543",
@@ -1242,7 +1252,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "34 May St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$339,000",
 	"address": "34 May St, Webster, NY 14580",
@@ -1256,7 +1266,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3401 Murphy Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$189,000",
 	"address": "3401 Murphy Rd, Newfane, NY 14108",
@@ -1270,7 +1280,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "332 Jefferson Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$825,000",
 	"address": "332 Jefferson Rd, Rochester, NY 14623",
@@ -1284,7 +1294,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2091 E. Henrietta Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$600,000",
 	"address": "2091 E. Henrietta Rd, Rochester, NY 14623",
@@ -1298,7 +1308,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "201 East Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$150,000",
 	"address": "201 East Main St, Palmyra, NY 14522",
@@ -1312,7 +1322,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1947 State Route 332",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$265,000",
 	"address": "1947 State Route 332, Canandaigua, NY 14424",
@@ -1326,7 +1336,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "402 North Main Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$6,694,915",
 	"address": "402 North Main Street, Elmira, NY 14901",
@@ -1340,7 +1350,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2446 Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$224,900",
 	"address": "2446 Ridge Rd, Ontario, NY 14519",
@@ -1354,7 +1364,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8704 Lake Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$605,000",
 	"address": "8704 Lake Rd, Barker, NY 14012",
@@ -1368,7 +1378,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1229 Mayberry Pl",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$53,000",
 	"address": "1229 Mayberry Pl, Macedon, NY 14502",
@@ -1382,7 +1392,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1638 Saint Paul St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$269,000",
 	"address": "1638 Saint Paul St, Rochester, NY 14621",
@@ -1396,7 +1406,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3144 Orchard Park Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,100,000",
 	"address": "3144 Orchard Park Road, West Seneca, NY 14224",
@@ -1410,7 +1420,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1195 Route 5 and 20",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$79,900",
 	"address": "1195 Route 5 and 20, Silver Creek, NY 14136",
@@ -1424,7 +1434,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1195 Rt 20",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$69,900",
 	"address": "1195 Rt 20, Silver Creek, NY 14136",
@@ -1438,7 +1448,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8742 Buffalo Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$385,000",
 	"address": "8742 Buffalo Ave, Niagara Falls, NY 14304",
@@ -1452,7 +1462,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "0 Chesapeake Landing",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$199,000",
 	"address": "0 Chesapeake Landing, West Henrietta, NY 14586",
@@ -1466,7 +1476,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7265 Route 54",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$3,950,000",
 	"address": "7265 Route 54, Bath, NY 14810",
@@ -1480,7 +1490,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "723 Mineral Springs Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "723 Mineral Springs Rd, West Seneca, NY 14224",
@@ -1494,7 +1504,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "35 N Dansville St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$249,900",
 	"address": "35 N Dansville St, Cohocton, NY 14826",
@@ -1508,7 +1518,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "741 Kenmore Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$935,000",
 	"address": "741 Kenmore Ave, Buffalo, NY 14223",
@@ -1522,7 +1532,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3080 Amsdell Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$975,000",
 	"address": "3080 Amsdell Rd, Hamburg, NY 14075",
@@ -1536,7 +1546,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1520 Military Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$895,000",
 	"address": "1520 Military Road, Buffalo, NY 14217",
@@ -1550,7 +1560,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "860-880 Maple St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "860-880 Maple St, Rochester, NY 14611",
@@ -1564,7 +1574,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "Windward Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "Windward Road, Orchard Park, NY 14127",
@@ -1578,7 +1588,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "596 Ontario",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$229,900",
 	"address": "596 Ontario, Buffalo, NY 14207",
@@ -1592,7 +1602,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2366 Niagara Falls Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$249,900",
 	"address": "2366 Niagara Falls Blvd, Niagara Falls, NY 14304",
@@ -1606,7 +1616,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "66 N Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$550,000",
 	"address": "66 N Main St, Fairport, NY 14450",
@@ -1620,7 +1630,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2 Florence Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$315,000",
 	"address": "2 Florence Street, West Seneca, NY 14224",
@@ -1634,7 +1644,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "10 Lancaster Pky",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$629,000",
 	"address": "10 Lancaster Pky, Lancaster, NY 14086",
@@ -1648,7 +1658,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "195 Norris Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$285,000",
 	"address": "195 Norris Dr, Rochester, NY 14610",
@@ -1662,7 +1672,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "364-370 East Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "364-370 East Ave, Rochester, NY 14604",
@@ -1676,7 +1686,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "Collett Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$199,000",
 	"address": "Collett Rd, Farmington, NY 14425",
@@ -1690,7 +1700,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4430 Route 5 &amp; 20",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$299,000",
 	"address": "4430 Route 5 &amp; 20, Canandaigua, NY 14424",
@@ -1704,7 +1714,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4410 Route 5 &amp; 20",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$350,000",
 	"address": "4410 Route 5 &amp; 20, Canandaigua, NY 14424",
@@ -1718,7 +1728,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "146 Walnut Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$70,000",
 	"address": "146 Walnut Street, Corning, NY 14830",
@@ -1732,7 +1742,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "858-931 West Ridge Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$375,000 - $900,000",
 	"address": "858-931 West Ridge Road, Rochester, NY 14615",
@@ -1746,7 +1756,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "98 W Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$289,000",
 	"address": "98 W Main St, Macedon, NY 14502",
@@ -1760,7 +1770,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "136 Campbell St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$162,000",
 	"address": "136 Campbell St, Rochester, NY 14611",
@@ -1774,7 +1784,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "122 Ravine Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$39,900",
 	"address": "122 Ravine Ave, Rochester, NY 14613",
@@ -1788,7 +1798,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "154 Emerson St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$51,900",
 	"address": "154 Emerson St, Rochester, NY 14613",
@@ -1802,7 +1812,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "127 Emerson St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$52,900",
 	"address": "127 Emerson St, Rochester, NY 14613",
@@ -1816,7 +1826,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "11 Delaware Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,575,000",
 	"address": "11 Delaware Street, Tonawanda, NY 14150",
@@ -1830,7 +1840,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2000 Kensington Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$8,547,789",
 	"address": "2000 Kensington Ave, Buffalo, NY 14226",
@@ -1844,7 +1854,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "822 Dewey Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$250,000",
 	"address": "822 Dewey Ave, Rochester, NY 14613",
@@ -1858,7 +1868,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "475 Ludwig Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$4,200,000",
 	"address": "475 Ludwig Ave, Buffalo, NY 14227",
@@ -1872,7 +1882,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "517 George Urban Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$155,000",
 	"address": "517 George Urban Blvd, Buffalo, NY 14225",
@@ -1886,7 +1896,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "110 Clifton Springs Professional Park",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,716,000",
 	"address": "110 Clifton Springs Professional Park, Clifton Springs, NY 14432",
@@ -1900,7 +1910,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "136 N. Ogden St.",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$89,900",
 	"address": "136 N. Ogden St., Buffalo, NY 14206",
@@ -1914,7 +1924,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3 Beartown Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$599,000",
 	"address": "3 Beartown Rd, Painted Post, NY 14870",
@@ -1928,7 +1938,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "104-110 Lake Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$299,000",
 	"address": "104-110 Lake Ave, Rochester, NY 14608",
@@ -1942,7 +1952,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "156 N Genesee St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$995,000",
 	"address": "156 N Genesee St, Geneva, NY 14456",
@@ -1956,7 +1966,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "400 Jay Scutti Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$15,100,000",
 	"address": "400 Jay Scutti Blvd, Henrietta, NY 14623",
@@ -1970,7 +1980,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2561 Lac De Ville Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,900,000",
 	"address": "2561 Lac De Ville Blvd, Rochester, NY 14618",
@@ -1984,7 +1994,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6010 Unionville Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$150,000",
 	"address": "6010 Unionville Rd, Bath, NY 14810",
@@ -1998,7 +2008,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "9890 Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$499,900",
 	"address": "9890 Main St, Clarence, NY 14031",
@@ -2012,7 +2022,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "42 Lake Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$300,000",
 	"address": "42 Lake Ave, Silver Creek, NY 14136",
@@ -2026,7 +2036,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7463 NY 5",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,401,846",
 	"address": "7463 NY 5, Bloomfield, NY 14469",
@@ -2040,7 +2050,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8079 S Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,339,323",
 	"address": "8079 S Main St, Springwater, NY 14560",
@@ -2054,7 +2064,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "756 Dick Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$309,900",
 	"address": "756 Dick Road, Cheektowaga, NY 14225",
@@ -2068,7 +2078,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "715 Sycamore",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$99,900",
 	"address": "715 Sycamore, Buffalo, NY 14212",
@@ -2082,7 +2092,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1229 Bay Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$399,000",
 	"address": "1229 Bay Rd, Webster, NY 14580",
@@ -2096,7 +2106,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7283 W Henrietta Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$625,000",
 	"address": "7283 W Henrietta Rd, Rush, NY 14543",
@@ -2110,7 +2120,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2771 Scottsville Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "2771 Scottsville Rd, Scottsville, NY 14546",
@@ -2124,7 +2134,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "175 W. Church St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$599,000",
 	"address": "175 W. Church St, Rochester, NY 14450",
@@ -2138,7 +2148,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "123 East Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$160,000",
 	"address": "123 East Ave, Lockport, NY 14094",
@@ -2152,7 +2162,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "899 FRENCH RD.",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$399,900",
 	"address": "899 FRENCH RD., Cheektowaga, NY 14227",
@@ -2166,7 +2176,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2419 Avon-Geneseo Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,500,000",
 	"address": "2419 Avon-Geneseo Road, Avon, NY 14414",
@@ -2180,7 +2190,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8322-8336 Lewiston Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$8,285,000",
 	"address": "8322-8336 Lewiston Road, Batavia, NY 14020",
@@ -2194,7 +2204,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1415 N Clinton Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "1415 N Clinton Ave, Rochester, NY 14621",
@@ -2208,7 +2218,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1525 N Clinton Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$225,000",
 	"address": "1525 N Clinton Ave, Rochester, NY 14621",
@@ -2222,7 +2232,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1375-1377 N Clinton Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$79,900",
 	"address": "1375-1377 N Clinton Ave, Rochester, NY 14621",
@@ -2236,7 +2246,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1581-1585 Dewey Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$495,000",
 	"address": "1581-1585 Dewey Ave, Rochester, NY 14615",
@@ -2250,7 +2260,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "360 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$449,000",
 	"address": "360 W Ridge Rd, Rochester, NY 14615",
@@ -2264,7 +2274,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "55 Huntington Park",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$59,900",
 	"address": "55 Huntington Park, Rochester, NY 14621",
@@ -2278,7 +2288,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2155-2171 Allen St. Ext",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,850,000",
 	"address": "2155-2171 Allen St. Ext, Falconer, NY 14733",
@@ -2292,7 +2302,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "400 Jay Scutti Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,200,000",
 	"address": "400 Jay Scutti Blvd, Rochester, NY 14623",
@@ -2306,7 +2316,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "127 Skillen Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,773,650",
 	"address": "127 Skillen Street, Buffalo, NY 14207",
@@ -2320,7 +2330,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "203 Elm St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$12,900",
 	"address": "203 Elm St, Salamanca, NY 14779",
@@ -2334,7 +2344,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "121 Emerson St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$53,900",
 	"address": "121 Emerson St, Rochester, NY 14613",
@@ -2348,7 +2358,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6301 Transit Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,262,480",
 	"address": "6301 Transit Rd, Depew, NY 14043",
@@ -2362,7 +2372,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1186-1192 Ridge Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "1186-1192 Ridge Road, Webster, NY 14580",
@@ -2376,7 +2386,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "211 Second Street West",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$950,000",
 	"address": "211 Second Street West, Elmira, NY 14901",
@@ -2390,7 +2400,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1002 State Route 5 &amp; 20",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,350,000",
 	"address": "1002 State Route 5 &amp; 20, Geneva, NY 14456",
@@ -2404,7 +2414,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6215 State Route 96",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,100,000",
 	"address": "6215 State Route 96, Farmington, NY 14425",
@@ -2418,7 +2428,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "530 South Main Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$600,000",
 	"address": "530 South Main Street, Warsaw, NY 14569",
@@ -2432,7 +2442,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2852 Transit Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,400,000",
 	"address": "2852 Transit Rd, West Seneca, NY 14224",
@@ -2446,7 +2456,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1480 Dewey Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$189,900",
 	"address": "1480 Dewey Ave, Rochester, NY 14615",
@@ -2460,7 +2470,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7464 W Henrietta Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$225,000",
 	"address": "7464 W Henrietta Road, Rush, NY 14543",
@@ -2474,7 +2484,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "385 Waterloo Geneva Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$279,000",
 	"address": "385 Waterloo Geneva Rd, Waterloo, NY 13165",
@@ -2488,7 +2498,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2285 S Union St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$600,000",
 	"address": "2285 S Union St, Spencerport, NY 14559",
@@ -2502,7 +2512,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "0 Route 31",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$175,000",
 	"address": "0 Route 31, Albion, NY 14411",
@@ -2516,7 +2526,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1717 Military Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$79,000",
 	"address": "1717 Military Rd, Tonawanda, NY 14217",
@@ -2530,7 +2540,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2625 Bedell Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$249,000",
 	"address": "2625 Bedell Rd, Grand Island, NY 14072",
@@ -2544,7 +2554,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "Stony Point &amp; Ransom Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$450,000",
 	"address": "Stony Point &amp; Ransom Rd, Grand Island, NY 14072",
@@ -2558,7 +2568,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5100 Big Tree Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$375,000",
 	"address": "5100 Big Tree Rd, Orchard Park, NY 14127",
@@ -2572,7 +2582,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4950 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$274,900",
 	"address": "4950 W Ridge Rd, Spencerport, NY 14559",
@@ -2586,7 +2596,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "647 Englewood Avenue",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$248,000",
 	"address": "647 Englewood Avenue, Tonawanda, NY 14223",
@@ -2600,7 +2610,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1439 Sheridan Drive",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$248,000",
 	"address": "1439 Sheridan Drive, Tonawanda, NY 14217",
@@ -2614,7 +2624,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3166 State St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$395,000",
 	"address": "3166 State St, Caledonia, NY 14423",
@@ -2628,7 +2638,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2637 Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$285,000",
 	"address": "2637 Main St, Buffalo, NY 14214",
@@ -2642,7 +2652,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1426 W River Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$395,000",
 	"address": "1426 W River Rd, Waterloo, NY 13165",
@@ -2656,7 +2666,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7 Lawrence Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$449,000",
 	"address": "7 Lawrence Street, Rochester, NY 14607",
@@ -2670,7 +2680,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2617 Elmwood Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$235,000",
 	"address": "2617 Elmwood Ave, Kenmore, NY 14217",
@@ -2684,7 +2694,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1311 Abbott Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "1311 Abbott Road, Lackawanna, NY 14218",
@@ -2698,7 +2708,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6700 S Transit Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,200,000",
 	"address": "6700 S Transit Road, Lockport, NY 14094",
@@ -2712,7 +2722,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "160 Densmore Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$299,000",
 	"address": "160 Densmore Rd, Irondequoit, NY 14609",
@@ -2726,7 +2736,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "9519 Foster Wheeler Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,160,586",
 	"address": "9519 Foster Wheeler Rd, Dansville, NY 14437",
@@ -2740,7 +2750,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "437 Lyell Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,785,714",
 	"address": "437 Lyell Ave, Rochester, NY 14606",
@@ -2754,7 +2764,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5726 Bowmiller Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$4,900,000",
 	"address": "5726 Bowmiller Rd, Lockport, NY 14094",
@@ -2768,7 +2778,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "100 Centre Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$4,950,000",
 	"address": "100 Centre Dr, Orchard Park, NY 14127",
@@ -2782,7 +2792,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "889 Broadway",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$99,000",
 	"address": "889 Broadway, Buffalo, NY 14212",
@@ -2796,7 +2806,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "45 N Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$220,000",
 	"address": "45 N Main St, Wellsville, NY 14895",
@@ -2810,7 +2820,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2493 Corning Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$160,000",
 	"address": "2493 Corning Rd, Elmira, NY 14903",
@@ -2824,7 +2834,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1596 Route 414",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$379,900",
 	"address": "1596 Route 414, Watkins Glen, NY 14891",
@@ -2838,7 +2848,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "29 N. Franklin st",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$369,000",
 	"address": "29 N. Franklin st, Watkins Glen, NY 14891",
@@ -2852,7 +2862,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "477 Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$999,000",
 	"address": "477 Main St, Buffalo, NY 14203",
@@ -2866,7 +2876,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "305 Buffalo Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,000,000",
 	"address": "305 Buffalo Ave, Niagara Falls, NY 14303",
@@ -2880,7 +2890,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1200 Empire Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$499,000",
 	"address": "1200 Empire Blvd, Rochester, NY 14609",
@@ -2894,7 +2904,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "645 Persons St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$749,000",
 	"address": "645 Persons St, East Aurora, NY 14052",
@@ -2908,7 +2918,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3506 Hyde Park Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$249,000",
 	"address": "3506 Hyde Park Blvd, Niagara Falls, NY 14305",
@@ -2922,7 +2932,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "114-118 S Union St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$625,000",
 	"address": "114-118 S Union St, Rochester, NY 14607",
@@ -2936,7 +2946,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "69 Seneca Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,375,000",
 	"address": "69 Seneca Ave, Rochester, NY 14621",
@@ -2950,7 +2960,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "502 Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$995,000",
 	"address": "502 Main St, Niagara Falls, NY 14301",
@@ -2964,7 +2974,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "745 Center Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$369,000",
 	"address": "745 Center Rd, West Seneca, NY 14224",
@@ -2978,7 +2988,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "276 Oliver St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$128,600",
 	"address": "276 Oliver St, North Tonawanda, NY 14120",
@@ -2992,7 +3002,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "329 N Sanford Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$329,900",
 	"address": "329 N Sanford Rd, Churchville, NY 14428",
@@ -3006,7 +3016,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2711 South Park",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$199,900",
 	"address": "2711 South Park, Lackawanna, NY 14218",
@@ -3020,7 +3030,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3180 Niagara Falls Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,103,500",
 	"address": "3180 Niagara Falls Blvd, Amherst, NY 14228",
@@ -3034,7 +3044,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4158 Lakeville Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,011,440",
 	"address": "4158 Lakeville Rd, Geneseo, NY 14454",
@@ -3048,7 +3058,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6020 Porter Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,916,080",
 	"address": "6020 Porter Rd, Niagara Falls, NY 14304",
@@ -3062,7 +3072,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "13700 Tri County Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "13700 Tri County Rd, Chaffee, NY 14030",
@@ -3076,7 +3086,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2135 Co Rd 8",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,100,000",
 	"address": "2135 Co Rd 8, Canandaigua, NY 14424",
@@ -3090,7 +3100,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "913 W State St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$3,000,000",
 	"address": "913 W State St, Olean, NY 14760",
@@ -3104,7 +3114,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2350 Brighton Henrietta Twnln Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$650,000",
 	"address": "2350 Brighton Henrietta Twnln Rd, Rochester, NY 14623",
@@ -3118,7 +3128,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "975 Abbott Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$945,000",
 	"address": "975 Abbott Rd, Buffalo, NY 14220",
@@ -3132,7 +3142,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1880 Blossom Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$995,000",
 	"address": "1880 Blossom Road, Rochester, NY 14625",
@@ -3146,7 +3156,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1563 Hertel Avenue",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,250,000",
 	"address": "1563 Hertel Avenue, Buffalo, NY 14216",
@@ -3160,7 +3170,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "54 Gates Cir",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$775,000",
 	"address": "54 Gates Cir, Buffalo, NY 14209",
@@ -3174,7 +3184,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "875 Harlem Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,402,000",
 	"address": "875 Harlem Rd, West Seneca, NY 14224",
@@ -3188,7 +3198,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "880 Millersport Hwy",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$650,000",
 	"address": "880 Millersport Hwy, Amherst, NY 14226",
@@ -3202,7 +3212,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "916 Kensington Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$50,000",
 	"address": "916 Kensington Ave, Buffalo, NY 14215",
@@ -3216,7 +3226,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1969 Eddy Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$675,000",
 	"address": "1969 Eddy Road, Walworth, NY 14568",
@@ -3230,7 +3240,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2020 Allen Street Ext",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$380,000",
 	"address": "2020 Allen Street Ext, Falconer, NY 14733",
@@ -3244,7 +3254,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2270 Bowen Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$119,900",
 	"address": "2270 Bowen Road, Elma, NY 14059",
@@ -3258,7 +3268,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "515 6th St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,900,000",
 	"address": "515 6th St, Niagara Falls, NY 14301",
@@ -3272,7 +3282,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3445 Niagara Falls Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$415,000",
 	"address": "3445 Niagara Falls Blvd, North Tonawanda, NY 14120",
@@ -3286,7 +3296,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "844 Dewey Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$185,000",
 	"address": "844 Dewey Ave, Rochester, NY 14613",
@@ -3300,7 +3310,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1143 E Union St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$89,900",
 	"address": "1143 E Union St, Newark, NY 14513",
@@ -3314,7 +3324,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "50 Victor Heights Pky",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$495,000",
 	"address": "50 Victor Heights Pky, Victor, NY 14564",
@@ -3328,7 +3338,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4670 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$650,000",
 	"address": "4670 W Ridge Rd, Spencerport, NY 14559",
@@ -3342,7 +3352,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "71 Lock St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$175,000",
 	"address": "71 Lock St, Lockport, NY 14094",
@@ -3356,7 +3366,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1891 Dewey Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$798,000",
 	"address": "1891 Dewey Ave, Rochester, NY 14615",
@@ -3370,7 +3380,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "9085 NYS Route 414",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$660,000",
 	"address": "9085 NYS Route 414, Lodi, NY 14860",
@@ -3384,7 +3394,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "265 State Route 14",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,135,000",
 	"address": "265 State Route 14, Lyons, NY 14489",
@@ -3398,7 +3408,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7 North Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "7 North Street, Canandaigua, NY 14424",
@@ -3412,7 +3422,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4799 W Henrietta Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$924,995",
 	"address": "4799 W Henrietta Rd, West Henrietta, NY 14467",
@@ -3426,7 +3436,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "220 Lake St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "220 Lake St, Penn Yan, NY 14527",
@@ -3440,7 +3450,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "565 Main Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$895,000",
 	"address": "565 Main Street, Arcade, NY 14009",
@@ -3454,7 +3464,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "21 Goodway Drive",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "21 Goodway Drive, Rochester, NY 14623",
@@ -3468,7 +3478,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "245 Vulcan St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$299,000",
 	"address": "245 Vulcan St, Buffalo, NY 14207",
@@ -3482,7 +3492,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "503 Park Place",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "503 Park Place, Elmira, NY 14901",
@@ -3496,7 +3506,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "175 Sully's Trail",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "175 Sully's Trail, Pittsford, NY 14534",
@@ -3510,7 +3520,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "108 Lincoln Pky",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$459,000",
 	"address": "108 Lincoln Pky, East Rochester, NY 14445",
@@ -3524,7 +3534,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "9094 Erie Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$495,000",
 	"address": "9094 Erie Road, Angola, NY 14006",
@@ -3538,7 +3548,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "385 Middle Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$359,900",
 	"address": "385 Middle Rd, Henrietta, NY 14467",
@@ -3552,7 +3562,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "607 Whitney Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$369,000",
 	"address": "607 Whitney Rd, Fairport, NY 14450",
@@ -3566,7 +3576,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "313 Grant Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$530,000",
 	"address": "313 Grant Street, Buffalo, NY 14213",
@@ -3580,7 +3590,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2374 State Route 414",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$499,000",
 	"address": "2374 State Route 414, Watkins Glen, NY 14891",
@@ -3594,7 +3604,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "324 W State St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$137,900",
 	"address": "324 W State St, Olean, NY 14760",
@@ -3608,7 +3618,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7183 State Route 54",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$725,000",
 	"address": "7183 State Route 54, Bath, NY 14810",
@@ -3622,7 +3632,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "803 County Road 4",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$650,000",
 	"address": "803 County Road 4, Geneva, NY 14456",
@@ -3636,7 +3646,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "68-70 Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$109,900",
 	"address": "68-70 Main St, Portville, NY 14770",
@@ -3650,7 +3660,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2 South Main Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$179,000",
 	"address": "2 South Main Street, Portville, NY 14770",
@@ -3664,7 +3674,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "125 S Union St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$699,000",
 	"address": "125 S Union St, Olean, NY 14760",
@@ -3678,7 +3688,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "55 Fessenden St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,100,000",
 	"address": "55 Fessenden St, Rochester, NY 14611",
@@ -3692,7 +3702,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "51 W Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$249,000",
 	"address": "51 W Main St, Allegany, NY 14706",
@@ -3706,7 +3716,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8940 Allegany Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$49,995",
 	"address": "8940 Allegany Rd, Corfu, NY 14036",
@@ -3720,7 +3730,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "140 East Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,599,500",
 	"address": "140 East Ave, Lockport, NY 14094",
@@ -3734,7 +3744,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "507 Center St W",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$490,000",
 	"address": "507 Center St W, Medina, NY 14103",
@@ -3748,7 +3758,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "65 Vantage Point Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$4,890,000",
 	"address": "65 Vantage Point Dr, Rochester, NY 14624",
@@ -3762,7 +3772,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "90 Central Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$379,000",
 	"address": "90 Central Ave, Lancaster, NY 14086",
@@ -3776,7 +3786,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2250 Niagara Falls Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "2250 Niagara Falls Blvd, Tonawanda, NY 14150",
@@ -3790,7 +3800,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "223 - 229 Parkwood Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$225,000",
 	"address": "223 - 229 Parkwood Ave, Elmira, NY 14903",
@@ -3804,7 +3814,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2080 West Seneca St.",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$445,000",
 	"address": "2080 West Seneca St., Ovid, NY 14521",
@@ -3818,7 +3828,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2861 West Henrietta Rd.",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "2861 West Henrietta Rd., Rochester, NY 14623",
@@ -3832,7 +3842,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "50 French Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$796,500",
 	"address": "50 French Rd, Cheektowaga, NY 14227",
@@ -3846,7 +3856,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "30 French Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$900,000",
 	"address": "30 French Rd, Cheektowaga, NY 14227",
@@ -3860,7 +3870,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "10-20 French Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,239,000",
 	"address": "10-20 French Road, Cheektowaga, NY 14227",
@@ -3874,7 +3884,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6359 Riddle Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$475,000",
 	"address": "6359 Riddle Road, Lockport, NY 14094",
@@ -3888,7 +3898,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "15 Rotterdam rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,500,000",
 	"address": "15 Rotterdam rd, Sodus, NY 14551",
@@ -3902,7 +3912,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "425 Ormond St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,200,000",
 	"address": "425 Ormond St, Rochester, NY 14605",
@@ -3916,7 +3926,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "291 Hamilton St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$272,727",
 	"address": "291 Hamilton St, Geneva, NY 14456",
@@ -3930,7 +3940,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1447 St. Paul Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "1447 St. Paul Street, Rochester, NY 14621",
@@ -3944,7 +3954,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "48 Cairn St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$249,900",
 	"address": "48 Cairn St, Rochester, NY 14611",
@@ -3958,7 +3968,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1000 Kenmore Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$659,000",
 	"address": "1000 Kenmore Ave, Buffalo, NY 14216",
@@ -3972,7 +3982,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "547 W Ferry St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$389,000",
 	"address": "547 W Ferry St, Buffalo, NY 14222",
@@ -3986,7 +3996,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "23 Flohr Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "23 Flohr Ave, West Seneca, NY 14224",
@@ -4000,7 +4010,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4707 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,976,000",
 	"address": "4707 W Ridge Rd, Spencerport, NY 14559",
@@ -4014,7 +4024,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "30 Roehrer Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$39,995",
 	"address": "30 Roehrer Ave, Buffalo, NY 14208",
@@ -4028,7 +4038,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5 Limestone Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "5 Limestone Dr, Buffalo, NY 14221",
@@ -4042,7 +4052,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3235 Lockport Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "3235 Lockport Rd, Niagara Falls, NY 14305",
@@ -4056,7 +4066,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8 Milks Alley",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$819,900",
 	"address": "8 Milks Alley, Ellicottville, NY 14731",
@@ -4070,7 +4080,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "252 Lake Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "252 Lake Ave, Blasdell, NY 14219",
@@ -4084,7 +4094,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "20 Allen St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$550,000",
 	"address": "20 Allen St, Buffalo, NY 14202",
@@ -4098,7 +4108,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4727 - 4729 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$800,000",
 	"address": "4727 - 4729 W Ridge Rd, Spencerport, NY 14559",
@@ -4112,7 +4122,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "11679 Genesee St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$175,000",
 	"address": "11679 Genesee St, Alden, NY 14004",
@@ -4126,7 +4136,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4079 Lake Rd N",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$390,000",
 	"address": "4079 Lake Rd N, Brockport, NY 14420",
@@ -4140,7 +4150,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "Blakeley Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$74,900",
 	"address": "Blakeley Road, East Aurora, NY 14052",
@@ -4154,7 +4164,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "111 Pulteney St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$80,000",
 	"address": "111 Pulteney St, Geneva, NY 14456",
@@ -4168,7 +4178,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2423 Monroe Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$750,000",
 	"address": "2423 Monroe Ave, Rochester, NY 14618",
@@ -4182,7 +4192,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "155 Bellwood Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$3,000,000",
 	"address": "155 Bellwood Dr, Rochester, NY 14606",
@@ -4196,7 +4206,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5050 Transit Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$749,900",
 	"address": "5050 Transit Rd, Depew, NY 14043",
@@ -4210,7 +4220,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4830 Transit Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "4830 Transit Road, Depew, NY 14043",
@@ -4224,7 +4234,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1983 Empire Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,699,900",
 	"address": "1983 Empire Blvd, Webster, NY 14580",
@@ -4238,7 +4248,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "938 Broadway St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$230,000",
 	"address": "938 Broadway St, Buffalo, NY 14212",
@@ -4252,7 +4262,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5673 McKinley Parkway",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$185,000",
 	"address": "5673 McKinley Parkway, Hamburg, NY 14075",
@@ -4266,7 +4276,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "501 W Commercial St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$945,000",
 	"address": "501 W Commercial St, East Rochester, NY 14445",
@@ -4280,7 +4290,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5952 Transit Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$450,000",
 	"address": "5952 Transit Rd, Depew, NY 14043",
@@ -4294,7 +4304,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "877 Military Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$499,000",
 	"address": "877 Military Rd, Kenmore, NY 14217",
@@ -4308,7 +4318,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "8420 Bay St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$350,000",
 	"address": "8420 Bay St, Sodus Point, NY 14555",
@@ -4322,7 +4332,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "11233 Corning Road East",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$699,000",
 	"address": "11233 Corning Road East, Corning, NY 14830",
@@ -4336,7 +4346,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "933-935 Sheridan Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$575,000",
 	"address": "933-935 Sheridan Dr, Tonawanda, NY 14150",
@@ -4350,7 +4360,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1320 Ridge Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$779,412",
 	"address": "1320 Ridge Road, Lackawanna, NY 14218",
@@ -4364,7 +4374,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "674 Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,500,000",
 	"address": "674 Main St, Buffalo, NY 14202",
@@ -4378,7 +4388,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "987 Niagara St &amp; 5 School St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$525,000",
 	"address": "987 Niagara St &amp; 5 School St, Buffalo, NY 14213",
@@ -4392,7 +4402,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "13700 Tri-County Business Park",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "13700 Tri-County Business Park, Chaffee, NY 14030",
@@ -4406,7 +4416,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1542-1548 Dewey Avenue",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$245,000",
 	"address": "1542-1548 Dewey Avenue, Rochester, NY 14615",
@@ -4420,7 +4430,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5103 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$595,000",
 	"address": "5103 W Ridge Rd, Spencerport, NY 14559",
@@ -4434,7 +4444,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6997 Campbell Blvd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$499,900",
 	"address": "6997 Campbell Blvd, North Tonawanda, NY 14120",
@@ -4448,7 +4458,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3242 Daansen Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,200,000",
 	"address": "3242 Daansen Road, Walworth, NY 14568",
@@ -4462,7 +4472,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "470 N Main St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$225,000",
 	"address": "470 N Main St, Canandaigua, NY 14424",
@@ -4476,7 +4486,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5605 W Ridge Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$295,000",
 	"address": "5605 W Ridge Rd, Spencerport, NY 14559",
@@ -4490,7 +4500,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "697 Main Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,508,467",
 	"address": "697 Main Street, Arcade, NY 14009",
@@ -4504,7 +4514,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2830 Delaware Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$220,000",
 	"address": "2830 Delaware Ave, Buffalo, NY 14217",
@@ -4518,7 +4528,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "7590 Transit Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,495,000",
 	"address": "7590 Transit Rd, Williamsville, NY 14221",
@@ -4532,7 +4542,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2211 Niagara St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$3,125,000",
 	"address": "2211 Niagara St, Buffalo, NY 14207",
@@ -4546,7 +4556,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6605 Pittsford Palmyra Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$670,000",
 	"address": "6605 Pittsford Palmyra Rd, Fairport, NY 14450",
@@ -4560,7 +4570,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "607 Rowley Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "607 Rowley Rd, Victor, NY 14564",
@@ -4574,7 +4584,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "25 South Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "25 South Ave, Hilton, NY 14468",
@@ -4588,7 +4598,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1735 Hertel Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$565,000",
 	"address": "1735 Hertel Ave, Buffalo, NY 14216",
@@ -4602,7 +4612,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "30 Wilson Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "30 Wilson Road, Amherst, NY 14221",
@@ -4616,7 +4626,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "40 Wildbriar Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$474,900",
 	"address": "40 Wildbriar Rd, Rochester, NY 14623",
@@ -4630,7 +4640,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1855 N Union St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$474,900",
 	"address": "1855 N Union St, Spencerport, NY 14559",
@@ -4644,7 +4654,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "492-494 Pearl Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,195,000",
 	"address": "492-494 Pearl Street, Buffalo, NY 14202",
@@ -4658,7 +4668,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "2521 East Henrietta Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$200,000",
 	"address": "2521 East Henrietta Road, Rochester, NY 14623",
@@ -4672,7 +4682,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "700 Oliver Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$198,000",
 	"address": "700 Oliver Street, North Tonawanda, NY 14120",
@@ -4686,7 +4696,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3488 Sheridan Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$550,000",
 	"address": "3488 Sheridan Dr, Amherst, NY 14226",
@@ -4700,7 +4710,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "197-199 Allen St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$3,500,000",
 	"address": "197-199 Allen St, Buffalo, NY 14201",
@@ -4714,7 +4724,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1989 Harlem Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "1989 Harlem Rd, Buffalo, NY 14212",
@@ -4728,7 +4738,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "75 Bird Avenue",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$650,000",
 	"address": "75 Bird Avenue, Buffalo, NY 14213",
@@ -4742,7 +4752,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "655 West Jefferson Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$6,422,210",
 	"address": "655 West Jefferson Road, Henrietta, NY 14623",
@@ -4756,7 +4766,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "W. Saile Drive &amp; Call Parkway",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$634,500",
 	"address": "W. Saile Drive &amp; Call Parkway, Batavia, NY 14020",
@@ -4770,7 +4780,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "115 High Street",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$495,000",
 	"address": "115 High Street, Painted Post, NY 14870",
@@ -4784,7 +4794,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "6555 4th Section Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$695,000",
 	"address": "6555 4th Section Rd, Brockport, NY 14420",
@@ -4798,7 +4808,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1192 Scottsville Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$450,000",
 	"address": "1192 Scottsville Rd, Rochester, NY 14624",
@@ -4812,7 +4822,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1468 Lake Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$329,900",
 	"address": "1468 Lake Rd, Hamlin, NY 14464",
@@ -4826,7 +4836,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "5138 South Park Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,900,000",
 	"address": "5138 South Park Ave, Hamburg, NY 14075",
@@ -4840,7 +4850,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "3 Geddes St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$550,000",
 	"address": "3 Geddes St, Holley, NY 14470",
@@ -4854,7 +4864,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "700 Delaware Ave",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$2,600,000",
 	"address": "700 Delaware Ave, Buffalo, NY 14209",
@@ -4868,7 +4878,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "975 Norton St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$36,000",
 	"address": "975 Norton St, Rochester, NY 14621",
@@ -4882,7 +4892,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "769 Trabold Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$1,100,000",
 	"address": "769 Trabold Rd, Gates, NY 14624",
@@ -4896,7 +4906,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "10340-10344 Main St.",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$199,000",
 	"address": "10340-10344 Main St., Clarence, NY 14031",
@@ -4910,7 +4920,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "515 3rd St",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "515 3rd St, Niagara Falls, NY 14301",
@@ -4924,7 +4934,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "1255 Commercial Drive",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$135,000",
 	"address": "1255 Commercial Drive, Farmington, NY 14425",
@@ -4938,7 +4948,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "300 Bram Hall Dr",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$199,000",
 	"address": "300 Bram Hall Dr, Greece, NY 14626",
@@ -4952,7 +4962,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "518 Abbott Rd",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "Price Not Disclosed",
 	"address": "518 Abbott Rd, Buffalo, NY 14220",
@@ -4966,7 +4976,7 @@ import LeftNav from '@/components/LeftNav';
 	"markerIcon": "marker-green.png"
 }, {
 	"title": "4150 Buffalo Road",
-	"image": "1-1-thmb.png",
+	"image": propImageArray[Math.floor(Math.random() * 6)  ],
 	"type": "For Sale",
 	"price": "$450,000",
 	"address": "4150 Buffalo Road, Rochester, NY 14624",
