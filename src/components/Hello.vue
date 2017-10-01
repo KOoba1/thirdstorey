@@ -10,12 +10,12 @@
                 <li><span></span></li>
             </ul-->
             <div id="carouselFull" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
+                        <!--ol class="carousel-indicators">
                             <li data-target="#carouselFull" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselFull" data-slide-to="1"></li>
                             <li data-target="#carouselFull" data-slide-to="2"></li>
                             
-                        </ol>
+                        </ol-->
                         <div class="carousel-inner">
                             <div class="item active" style="height:600px;color:transparent;">
                                 <img class="cb-slideshow" src="/static/images/buffalo1.jpg" alt="First slide">
@@ -64,7 +64,7 @@
                     <div class="form-group">
                         <input type="text" class="form-control" id="city" placeholder="City" autocomplete="off">
                     </div>
-                    <div class="form-group hidden-xs adv">
+                    <!-- div class="form-group hidden-xs adv">
                         <a href="#" data-toggle="dropdown" class="btn btn-white dropdown-toggle">
                             <span class="dropdown-label">Bedrooms</span> <span class="caret"></span>
                         </a>
@@ -87,7 +87,7 @@
                             <li><input type="radio" name="bathno"><a href="#">3</a></li>
                             <li><input type="radio" name="bathno"><a href="#">4</a></li>
                         </ul>
-                    </div>
+                    </div-->
                     <div class="form-group hidden-xs adv">
                         <div class="input-group">
                             <div class="input-group-addon">$</div>
@@ -297,9 +297,9 @@
                             <li><a href="#">Become a Member</a></li>
                             <li><a href="#">Properties List</a></li>
                             <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Widgets</a></li>
+                            <li><a href="#">Legal</a></li>
                             <li><a href="#">Components</a></li>
-                            <li><a href="#">Tables</a></li>
+                            <li><a href="#">Markets</a></li>
                             <li><a href="#">Lists</a></li>
                         </ul>
                     </div>
