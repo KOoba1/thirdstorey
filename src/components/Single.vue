@@ -16,7 +16,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="/static/images/prop/Entrance.jpg" height="800" width="600" alt="First slide">
+                                <div style="background-image: url('/static/images/prop/Entrance.jpg'); height: 350px; background-size: cover;"></div>
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -24,28 +24,28 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/Atrium.jpg" height="800" width="480" alt="Second slide">
-                                <div class="container">
-                                    <div class="carousel-caption">
+                             <div style="background-image: url('/static/images/prop/Atrium.jpg'); height: 350px; background-size: cover;"></div>
+                             <div class="container">
+                                 <div class="carousel-caption">
 
-                                    </div>
-                                </div>
+                                 </div>
+                             </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/Outside.jpg" height="800" width="480" alt="Third slide">
-                                <div class="container">
-                                    <div class="carousel-caption">
+                             <div  style="background-image: url('/static/images/prop/Outside.jpg'); height: 350px; background-size: cover;"></div>
+                             <div class="container">
+                                 <div class="carousel-caption">
 
-                                    </div>
-                                </div>
+                                 </div>
+                             </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/Inside.jpg"  height="800" width="480" alt="Fourth slide">
-                                <div class="container">
-                                    <div class="carousel-caption">
+                             <div style="background-image: url('/static/images/prop/Inside.jpg'); height: 350px; background-size: cover;"></div>
+                             <div class="container">
+                                 <div class="carousel-caption">
 
-                                    </div>
-                                </div>
+                                 </div>
+                             </div>
                             </div>
                         </div>
                         <a class="left carousel-control" href="#carouselFull" role="button" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
@@ -829,7 +829,7 @@ import LeftNav from '@/components/LeftNav';
     "bedrooms": "3",
     "bathrooms": "2",
     "area": "8000 Sq Ft",
-    "position":{"lat":42.8900035,"lng":-78.87451420000002}, 
+    "position":{"lat":42.8900035,"lng":-78.87451420000002},
     "markerIcon": "marker-green.png"
     },
 
