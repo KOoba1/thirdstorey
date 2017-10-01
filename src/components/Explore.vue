@@ -18,14 +18,14 @@
                 <a href="#" class="headerUser dropdown-toggle" data-toggle="dropdown">
                     <img class="avatar headerAvatar pull-left" src="/static/images/avatar-1.png" alt="avatar">
                     <div class="userTop pull-left">
-                        <span class="headerUserName">John Smith</span> <span class="fa fa-angle-down"></span>
+                        <span class="headerUserName">Kai Burnett</span> <span class="fa fa-angle-down"></span>
                     </div>
                     <div class="clearfix"></div>
                 </a>
                 <div class="dropdown-menu pull-right userMenu" role="menu">
                     <div class="mobAvatar">
                         <img class="avatar mobAvatarImg" src="/static/images/avatar-1.png" alt="avatar">
-                        <div class="mobAvatarName">John Smith</div>
+                        <div class="mobAvatarName">Kai Burnett</div>
                     </div>
                     <ul>
                         <li><a href="#"><span class="icon-settings"></span>Settings</a></li>
@@ -111,7 +111,7 @@
                 </div>
                 <ul>
                     <li><a href="explore.html"><span class="navIcon icon-compass"></span><span class="navLabel">Explore</span></a></li>
-                    <li><a href="single.html"><span class="navIcon icon-home"></span><span class="navLabel">Single</span></a></li>
+                    <li><a href="#/Single"><span class="navIcon icon-home"></span><span class="navLabel">Single</span></a></li>
                     <li><a href="add.html"><span class="navIcon icon-plus"></span><span class="navLabel">New</span></a></li>
                     <li class="hasSub">
                         <a href="#"><span class="navIcon icon-drop"></span><span class="navLabel">Colors</span><span class="fa fa-angle-left arrowRight"></span><span class="badge bg-yellow">5</span></a>
@@ -191,7 +191,7 @@
                                     </a>
                                     <ul class="dropdown-menu dropdown-select full" role="menu">
                                         <li class="active"><input type="radio" name="pType" checked="checked"><a href="#">All</a></li>
-                                        <li><input type="radio" name="pType"><a href="">Rent</a></li>
+                                        <li><input type="radio" name="pType"><a href="">Lease</a></li>
                                         <li><input type="radio" name="pType"><a href="">Sale</a></li>
                                     </ul>
                                 </div>
@@ -221,7 +221,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <!--div class="row">
                             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 formItem">
                                 <div class="formField">
                                     <label>Bedrooms</label>
@@ -244,13 +244,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div -->
                     </form>
                 </div>
                 <div class="resultsList">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/1-1.png" alt="image">
                                     <div class="figCaption">
@@ -281,7 +281,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/2-1.png" alt="image">
                                     <div class="figCaption">
@@ -291,7 +291,7 @@
                                         <span class="icon-bubble"> 9</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Rent</div>
+                                    <div class="figType">For Lease</div>
                                 </div>
                                 <h2>Hauntingly Beautiful Estate</h2>
                                 <div class="cardAddress"><span class="icon-pointer"></span> 169 Warren St, Brooklyn, NY 11201, USA</div>
@@ -312,7 +312,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/3-1.png" alt="image">
                                     <div class="figCaption">
@@ -322,7 +322,7 @@
                                         <span class="icon-bubble"> 12</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Rent</div>
+                                    <div class="figType">For Lease</div>
                                 </div>
                                 <h2>Sophisticated Residence</h2>
                                 <div class="cardAddress"><span class="icon-pointer"></span> 38-62 Water St, Brooklyn, NY 11201, USA</div>
@@ -343,7 +343,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/4-1.png" alt="image">
                                     <div class="figCaption">
@@ -374,7 +374,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/5-1.png" alt="image">
                                     <div class="figCaption">
@@ -384,7 +384,7 @@
                                         <span class="icon-bubble"> 18</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Rent</div>
+                                    <div class="figType">For Lease</div>
                                 </div>
                                 <h2>Luxury Mansion</h2>
                                 <div class="cardAddress"><span class="icon-pointer"></span> 95 Butler St, Brooklyn, NY 11231, USA</div>
@@ -405,7 +405,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/1-1.png" alt="image">
                                     <div class="figCaption">
@@ -436,7 +436,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/2-1.png" alt="image">
                                     <div class="figCaption">
@@ -446,7 +446,7 @@
                                         <span class="icon-bubble"> 9</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Rent</div>
+                                    <div class="figType">For Lease</div>
                                 </div>
                                 <h2>Hauntingly Beautiful Estate</h2>
                                 <div class="cardAddress"><span class="icon-pointer"></span> 169 Warren St, Brooklyn, NY 11201, USA</div>
@@ -467,7 +467,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/3-1.png" alt="image">
                                     <div class="figCaption">
@@ -477,7 +477,7 @@
                                         <span class="icon-bubble"> 12</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Rent</div>
+                                    <div class="figType">For Lease</div>
                                 </div>
                                 <h2>Sophisticated Residence</h2>
                                 <div class="cardAddress"><span class="icon-pointer"></span> 38-62 Water St, Brooklyn, NY 11201, USA</div>
@@ -498,7 +498,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/4-1.png" alt="image">
                                     <div class="figCaption">
@@ -529,7 +529,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <a href="single.html" class="card">
+                            <a href="#/Single" class="card">
                                 <div class="figure">
                                     <img src="/static/images/prop/5-1.png" alt="image">
                                     <div class="figCaption">
@@ -539,7 +539,7 @@
                                         <span class="icon-bubble"> 18</span>
                                     </div>
                                     <div class="figView"><span class="icon-eye"></span></div>
-                                    <div class="figType">For Rent</div>
+                                    <div class="figType">For Lease</div>
                                 </div>
                                 <h2>Luxury Mansion</h2>
                                 <div class="cardAddress"><span class="icon-pointer"></span> 95 Butler St, Brooklyn, NY 11231, USA</div>
@@ -631,7 +631,36 @@ import LeftNav from '@/components/LeftNav';
 
     // json for properties markers on map
 
-    var props = [{
+    var props = [
+
+    {
+	"title": "392 Pearl Street",
+	"image": "392Pearl.jpg",
+	"type": "For Lease",
+	"price": "$400/mo",
+	"address": "392 Pearl St, Buffalo, NY 14202",
+	"bedrooms": "3",
+	"bathrooms": "2",
+	"area": "8000 Sq Ft",
+	"position":{"lat":42.8900035,"lng":-78.87451420000002}, 
+	"markerIcon": "marker-green.png"
+	},
+
+	   {
+	"title": "227 Niagara St",
+	"image": "1-1-thmb.png",
+	"type": "For Sale",
+	"price": "$900/mo",
+	"address": "227 Niagara St, Buffalo, NY, 14201",
+	"bedrooms": "3",
+	"bathrooms": "2",
+	"area": "2400 Sq Ft",
+	"position":{"lat":42.8908903,"lng":-78.88198879999999},
+	"markerIcon": "marker-green.png"
+	},
+
+
+    {
 	"title": "463 Electric Avenue",
 	"image": "1-1-thmb.png",
 	"type": "For Sale",
@@ -645,7 +674,11 @@ import LeftNav from '@/components/LeftNav';
 		"lng": -77.64705500000002
 	},
 	"markerIcon": "marker-green.png"
-}, {
+},
+
+
+
+ {
 	"title": "3255 Dolphsburg Road",
 	"image": "1-1-thmb.png",
 	"type": "For Sale",
@@ -4961,7 +4994,7 @@ import LeftNav from '@/components/LeftNav';
     }, {
         title : 'Hauntingly Beautiful Estate',
         image : '2-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Lease',
         price : '$1,750,000',
         address : '169 Warren St, Brooklyn, NY 11201, USA',
         bedrooms : '2',
@@ -5003,7 +5036,7 @@ import LeftNav from '@/components/LeftNav';
     }, {
         title : 'Luxury Mansion',
         image : '5-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Lease',
         price : '$2,350,000',
         address : '95 Butler St, Brooklyn, NY 11231, USA',
         bedrooms : '2',
@@ -5031,7 +5064,7 @@ import LeftNav from '@/components/LeftNav';
     }, {
         title : 'Hauntingly Beautiful Estate',
         image : '2-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Lease',
         price : '$1,750,000',
         address : '169 Warren St, Brooklyn, NY 11201, USA',
         bedrooms : '2',
@@ -5073,7 +5106,7 @@ import LeftNav from '@/components/LeftNav';
     }, {
         title : 'Luxury Mansion',
         image : '5-1-thmb.png',
-        type : 'For Rent',
+        type : 'For Lease',
         price : '$2,350,000',
         address : '95 Butler St, Brooklyn, NY 11231, USA',
         bedrooms : '2',
@@ -5401,7 +5434,7 @@ import LeftNav from '@/components/LeftNav';
         range: true,
         min: 0,
         max: 2000000,
-        values: [500000, 1500000],
+        values: [0, 1500000],
         step: 10000,
         slide: function(event, ui) {
             $('.priceSlider .sliderTooltip .stLabel').html(

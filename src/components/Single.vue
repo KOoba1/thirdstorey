@@ -16,7 +16,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="/static/images/prop/4-1.png" alt="First slide">
+                                <img src="/static/images/prop/Entrance.jpg" height="42" width="42" alt="First slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -24,7 +24,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/4-2.png" alt="Second slide">
+                                <img src="/static/images/prop/Atrium.jpg" alt="Second slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/4-3.png" alt="Third slide">
+                                <img src="/static/images/prop/Outside.jpg" alt="Third slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="/static/images/prop/4-4.png" alt="Fourth slide">
+                                <img src="/static/images/prop/Inside.jpg" alt="Fourth slide">
                                 <div class="container">
                                     <div class="carousel-caption">
 
@@ -55,8 +55,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                                 <div class="summaryItem">
-                                    <h1 class="pageTitle">Modern Residence in New York</h1>
-                                    <div class="address"><span class="icon-pointer"></span> 39 Remsen St, Brooklyn, NY 11201, USA</div>
+                                    <h1 class="pageTitle">Modern Office Space on Pearl Street</h1>
+                                    <div class="address"><span class="icon-pointer"></span>392 Pearl Street, Buffalo NY, 14202</div>
                                     <ul class="rating">
                                         <li><a href="#"><span class="fa fa-star"></span></a></li>
                                         <li><a href="#"><span class="fa fa-star"></span></a></li>
@@ -93,7 +93,7 @@
                 <div class="clearfix"></div>
                 <div class="description">
                     <h3>Description</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                    <p>Beautiful Atrium with indoor garden. Large lobby with full concierge services. Beautiful boutique building with a prestigious address in Downtown Buffalo. White glove, top notch service and luxury office space. Come be part of the downtown Buffalo revival.</p>
                 </div>
                 <div class="share">
                     <h3>Share on Social Networks</h3>
@@ -819,7 +819,21 @@ import LeftNav from '@/components/LeftNav';
     var markers = [];
 
     // json for properties markers on map
-    var props = [{
+    var props = [
+       {
+    "title": "392 Pearl Street",
+    "image": "392Pearl.jpg",
+    "type": "For Lease",
+    "price": "$400/mo",
+    "address": "392 Pearl St, Buffalo, NY 14202",
+    "bedrooms": "3",
+    "bathrooms": "2",
+    "area": "8000 Sq Ft",
+    "position":{"lat":42.8900035,"lng":-78.87451420000002}, 
+    "markerIcon": "marker-green.png"
+    },
+
+    {
         title : 'Modern Residence in New York',
         image : '1-1-thmb.png',
         type : 'For Sale',
@@ -1131,10 +1145,10 @@ import LeftNav from '@/components/LeftNav';
         var styledMapType = new google.maps.StyledMapType(styles, {
             name : 'Styled'
         });
-
+        //{"lat":42.8900035,"lng":-78.87451420000002}
         map.mapTypes.set('Styled', styledMapType);
-        map.setCenter(new google.maps.LatLng(40.6984237,-73.9890044));
-        map.setZoom(14);
+        map.setCenter(new google.maps.LatLng(42.8900035,-78.8745142));
+        map.setZoom(16);
 
         if ($('#address').length > 0) {
             newMarker = new google.maps.Marker({

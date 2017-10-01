@@ -16,14 +16,14 @@
                 <a href="#" class="headerUser dropdown-toggle" data-toggle="dropdown">
                     <img class="avatar headerAvatar pull-left" src="/static/images/avatar-1.png" alt="avatar">
                     <div class="userTop pull-left">
-                        <span class="headerUserName">John Smith</span> <span class="fa fa-angle-down"></span>
+                        <span class="headerUserName">Kai Burnett</span> <span class="fa fa-angle-down"></span>
                     </div>
                     <div class="clearfix"></div>
                 </a>
                 <div class="dropdown-menu pull-right userMenu" role="menu">
                     <div class="mobAvatar">
                         <img class="avatar mobAvatarImg" src="/static/images/avatar-1.png" alt="avatar">
-                        <div class="mobAvatarName">John Smith</div>
+                        <div class="mobAvatarName">Kai Burnett</div>
                     </div>
                     <ul>
                         <li><a href="#"><span class="icon-settings"></span>Settings</a></li>

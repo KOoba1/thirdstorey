@@ -101,7 +101,7 @@
                         </div>
                     </div>
                     <div class="form-group hidden-xs adv">
-                        <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> For Rent</label></div>
+                        <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> For Lease</label></div>
                     </div>
                     <div class="form-group hidden-xs adv">
                         <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> For Sale</label></div>
