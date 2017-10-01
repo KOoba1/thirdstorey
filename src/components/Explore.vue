@@ -640,8 +640,8 @@ import LeftNav from '@/components/LeftNav';
         bathrooms : '2',
         area : '3430 Sq Ft',
         position : {
-            lat : 40.696047,
-            lng : -73.997159
+            lat : 42.8864,
+            lng : -78.8784
         },
         markerIcon : "marker-green.png"
     }, {
@@ -653,9 +653,9 @@ import LeftNav from '@/components/LeftNav';
         bedrooms : '2',
         bathrooms : '2',
         area : '4430 Sq Ft',
-        position : {
-            lat : 40.688042,
-            lng : -73.996472
+          position : {
+            lat : 42.8864,
+            lng : -78.8584
         },
         markerIcon : "marker-green.png"
     }, {
@@ -668,8 +668,8 @@ import LeftNav from '@/components/LeftNav';
         bathrooms : '3',
         area : '2640 Sq Ft',
         position : {
-            lat : 40.702620,
-            lng : -73.989682
+            lat : 42.8824,
+            lng : -78.8789
         },
         markerIcon : "marker-green.png"
     }, {
@@ -681,9 +681,9 @@ import LeftNav from '@/components/LeftNav';
         bedrooms : '3',
         bathrooms : '2',
         area : '2800 Sq Ft',
-        position : {
-            lat : 40.694355,
-            lng : -73.985229
+       position : {
+            lat : 42.8869,
+            lng : -78.8789
         },
         markerIcon : "marker-green.png"
     }, {
@@ -696,8 +696,8 @@ import LeftNav from '@/components/LeftNav';
         bathrooms : '2',
         area : '2750 Sq Ft',
         position : {
-            lat : 40.686838,
-            lng : -73.990078
+            lat : 42.8894,
+            lng : -78.8794
         },
         markerIcon : "marker-green.png"
     }, {
@@ -710,8 +710,8 @@ import LeftNav from '@/components/LeftNav';
         bathrooms : '2',
         area : '3430 Sq Ft',
         position : {
-            lat : 40.703686,
-            lng : -73.982910
+            lat : 42.8964,
+            lng : -78.8984
         },
         markerIcon : "marker-green.png"
     }, {
@@ -723,9 +723,9 @@ import LeftNav from '@/components/LeftNav';
         bedrooms : '2',
         bathrooms : '2',
         area : '4430 Sq Ft',
-        position : {
-            lat : 40.702189,
-            lng : -73.995098
+       position : {
+            lat : 42.8964,
+            lng : -78.8784
         },
         markerIcon : "marker-green.png"
     }, {
@@ -737,9 +737,9 @@ import LeftNav from '@/components/LeftNav';
         bedrooms : '2',
         bathrooms : '3',
         area : '2640 Sq Ft',
-        position : {
-            lat : 40.687417,
-            lng : -73.982653
+       position : {
+            lat : 42.8964,
+            lng : -78.8794
         },
         markerIcon : "marker-green.png"
     }, {
@@ -751,9 +751,9 @@ import LeftNav from '@/components/LeftNav';
         bedrooms : '3',
         bathrooms : '2',
         area : '2800 Sq Ft',
-        position : {
-            lat : 40.694120,
-            lng : -73.974413
+       position : {
+            lat : 42.8824,
+            lng : -78.8724
         },
         markerIcon : "marker-green.png"
     }, {
@@ -766,8 +766,8 @@ import LeftNav from '@/components/LeftNav';
         bathrooms : '2',
         area : '2750 Sq Ft',
         position : {
-            lat : 40.682665,
-            lng : -74.000934
+            lat : 42.8814,
+            lng : -78.8724
         },
         markerIcon : "marker-green.png"
     }];
@@ -835,7 +835,7 @@ import LeftNav from '@/components/LeftNav';
                                     '<div class="clearfix"></div>' +
                                     '<div class="infoButtons">' +
                                         '<a class="btn btn-sm btn-round btn-gray btn-o closeInfo">Close</a>' +
-                                        '<a href="single.html" class="btn btn-sm btn-round btn-green viewInfo">View</a>' +
+                                        '<a href="#/Single" class="btn btn-sm btn-round btn-green viewInfo">View</a>' +
                                     '</div>' +
                                  '</div>';
 
@@ -944,7 +944,7 @@ import LeftNav from '@/components/LeftNav';
         });
 
         map.mapTypes.set('Styled', styledMapType);
-        map.setCenter(new google.maps.LatLng(40.6984237,-73.9890044));
+        map.setCenter(new google.maps.LatLng(42.8864,-78.8784));
         map.setZoom(14);
 
         if ($('#address').length > 0) {

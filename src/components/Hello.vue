@@ -20,22 +20,22 @@
                             <div class="item active" style="height:600px;color:transparent;">
                                 <img class="cb-slideshow" src="/static/images/buffalo1.jpg" alt="First slide">
                                 <div class="home-caption">
-                                  <div class="home-title">Now it's easy to find your future home</div>
-                                   <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                                  <div class="home-title">Commercial real estate made easy</div>
+                                  
                             </div>
                             </div>
                             <div class="item" style="height:600px">
                                 <img class="cb-slideshow" src="/static/images/buffalo2.jpg" alt="Second slide">
                                 <div class="home-caption">
-                                  <div class="home-title">Now it's easy to find your future home</div>
-                                   <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                                  <div class="home-title">Commercial real estate made easy</div>
+                                 
                             </div>
                             </div>
                             <div class="item" style="height:600px">
                                 <img class="cb-slideshow" src="/static/images/texas.jpg" alt="Third slide">
                                 <div class="home-caption">
-                                  <div class="home-title">Now it's easy to find your future home</div>
-                                   <div class="home-subtitle">With Reales - Real Estate HTML Template</div>
+                                  <div class="home-title">Commercial real estate made easy</div>
+                                   
                             </div>
                             </div>
                         
